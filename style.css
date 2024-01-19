@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(25, 25, 25);
+}
+
+.sveglia{
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+.countdown{
+    display: flex;
+    justify-content: center;
+}
+
+.tempo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}

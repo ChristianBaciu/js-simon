@@ -3,20 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tempo</title>
+    <title>Countdown </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div id="tempo">
 
-    </div>
-
-    <button id="play">Play</button>
-    <button id="stop">Stop</button>
-    <button id="reset">Reset</button>
-
-
-    <!-- Descrizione:
+    <!--
     fruttiamo le timing functions per fare il conto alla rovescia
     per la correzione di domani! Ogni secondo il nostro countdown 
     dovrà scalare fino alle 9:30 di domani mattina!
@@ -29,7 +21,39 @@
     Da quanti millisecondi è composto un secondo?
     Quanti millisecondi mi separano da domani alle 9:30?
     Esiste un oggetto JS in grado di gestire le date?
-    Esistono dei metodi per trasformare una data in millisecondi? -->
+    Esistono dei metodi per trasformare una data in millisecondi? 
+    -->
+
+    <div class="sveglia">
+        <h1>it's the final countdown</h1>
+        <div id="countdown" class="countdown">
+            <div class="tempo">
+                <h2 id="ora">00</h2>
+                <span>Ora</span>
+            </div>
+
+            <div class="tempo">
+                <h2 id="minuti">00</h2>
+                <span>Minuti</span>
+            </div>
+
+            <div class="tempo">
+                <h2 id="secondi">00</h2>
+                <span>Secondi</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ///////////////////////////////////////////////////// -->
+
+    <!-- <div id="tempo"></div>
+
+    <button id="play">Play</button>
+    <button id="stop">Stop</button>
+    <button id="reset">Reset</button> -->
+
+    <!-- ///////////////////////////////////////////////////// -->
+
 
     <script src="main.js"></script>
 </body>
